@@ -60,8 +60,6 @@ var wstrust_options = {
 var rstr = wstrust.requestSecurityToken(wstrust_options)
 ```
 
-## Tests
-
 ## Issue Reporting
 
 If you have found a bug or if you have a feature request, please report them at this repository issues section.
