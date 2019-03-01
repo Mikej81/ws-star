@@ -50,9 +50,7 @@ WS-Trust has two functions, CreateRST() and CreateRSTR().  To integrate with ano
 
 
 ```js
-var wsfed = require('ws-star').wstrust;
-
-var options = {};
+var wstrust = require('ws-star').wstrust;
 
 var wstrust_options = {
   endpoint: 'https://adfs.domain.com/adfs/services/trust/13/usernamemixed',
