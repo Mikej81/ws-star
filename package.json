@@ -1,6 +1,6 @@
 {
   "name": "ws-star",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "WS-Federation and WS-Trust integration with AD FS.",
   "main": "./lib/index.js",
   "directories": {
