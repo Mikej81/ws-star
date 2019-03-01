@@ -45,6 +45,8 @@ var signedAssertion = wsfed.create(wsfed_options)
 ```
 
 ## WS-Trust
+* WS-Trust implementation does not yet replace the Endpoint, that is coming in next release.
+
 ```js
 var wsfed = require('ws-star').wstrust;
 
