@@ -1,0 +1,28 @@
+{
+  "name": "ws-star",
+  "version": "0.1.0",
+  "description": "WS-Federation and WS-Trust integration with AD FS.",
+  "main": "./lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikej81/ws-star.git"
+  },
+  "keywords": [
+    "ws-trust",
+    "ws-federation",
+    "ws-fed",
+    "ws-*"
+  ],
+  "author": "Michael Coleman <stumpj@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mikej81/ws-star/issues"
+  },
+  "homepage": "https://github.com/Mikej81/ws-star#readme"
+}
