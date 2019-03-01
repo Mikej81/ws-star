@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/test.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,14 @@
   "bugs": {
     "url": "https://github.com/Mikej81/ws-star/issues"
   },
-  "homepage": "https://github.com/Mikej81/ws-star#readme"
+  "homepage": "https://github.com/Mikej81/ws-star#readme",
+  "dependencies": {
+    "async": "^2.6.2",
+    "crypto": "^1.0.1",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.23",
+    "xml-crypto": "^1.2.0",
+    "xml-encryption": "^0.11.2",
+    "xmldom": "^0.1.27"
+  }
 }

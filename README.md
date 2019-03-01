@@ -45,6 +45,9 @@ var signedAssertion = wsfed.create(wsfed_options)
 ```
 
 ## WS-Trust
+
+WS-Trust has two functions, CreateRST() and CreateRSTR().  To integrate with another IDP you can use the RST to generate your RST, and to eliminate integration CreatRSTR().
+
 ```js
 var wsfed = require('ws-star').wstrust;
 
@@ -57,7 +60,13 @@ var wstrust_options = {
   scope: 'urn:ws-trust:app'
 }
 
-var rstr = wstrust.requestSecurityToken(wstrust_options)
+var rstr = wstrust.createrstr(wstrust_options)
+```
+
+## Testing
+
+```
+npm test
 ```
 
 ## Issue Reporting
